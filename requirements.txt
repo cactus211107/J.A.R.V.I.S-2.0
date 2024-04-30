@@ -1,0 +1,16 @@
+numpy
+requests
+pygame
+py3-tts
+regex
+SpeechRecognition
+pyaudio
+pocketsphinx
+airplay
+pyautogui
+watchdog
+pydub
+sounddevice
+soundfile
+numpy
+git+https://github.com/openai/whisper.git 
