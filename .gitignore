@@ -1,4 +1,6 @@
 .venv
-
+media/downloaded/*
+media/chats/*
+__pycache__
 # OS X
 .DS_Store
