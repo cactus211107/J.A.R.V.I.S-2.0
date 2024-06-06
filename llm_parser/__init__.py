@@ -2,7 +2,7 @@ import regex,re
 
 def getSentences(text:str,onlyReturnFull:bool=True):
     # try:
-        s=regex.split(r'(?<!(Mr|Ms|Mrs|St|Dr|Gov|[0-9]|\n[A-z]))(\.|\?|!) ',text)
+        s=regex.split(r'(?<!(Mr|Ms|Mrs|St|Dr|Gov|[0-9]|\n[A-z]|\.|!|\?))(\.|\?|!) ',text)
         sentences=[]
         for x in range(0,len(s)-2,3):
             sentences.append((s[x]+s[x+2]).replace('**',''))

@@ -9,4 +9,4 @@ pyautogui
 pydub
 pytube
 pyaudio
-git+https://github.com/openai/whisper.git 
+git+https://github.com/openai/whisper.git
